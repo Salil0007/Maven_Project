@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="amazon.maven_project.TestCase1">
+        <methods>
+          <include name="Quit"/>
+          <include name="Launch"/>
+          <include name="amazon_login_logout"/>
+        </methods>
+      </class> <!-- amazon.maven_project.TestCase1 -->
+      <class name="amazon.maven_project.Testcase2">
+        <methods>
+          <include name="Quit"/>
+          <include name="Launch"/>
+          <include name="wishlist"/>
+        </methods>
+      </class> <!-- amazon.maven_project.Testcase2 -->
+      <class name="amazon.maven_project.Testcase3">
+        <methods>
+          <include name="Quit"/>
+          <include name="Launch"/>
+          <include name="productadd"/>
+        </methods>
+      </class> <!-- amazon.maven_project.Testcase3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
