@@ -17,13 +17,13 @@
           <include name="wishlist"/>
         </methods>
       </class> <!-- amazon.maven_project.Testcase2 -->
-      <class name="amazon.maven_project.Testcase3">
+      <class name="amazon.maven_project.Testcase4">
         <methods>
           <include name="Quit"/>
+          <include name="add_product_in_cart"/>
           <include name="Launch"/>
-          <include name="productadd"/>
         </methods>
-      </class> <!-- amazon.maven_project.Testcase3 -->
+      </class> <!-- amazon.maven_project.Testcase4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
